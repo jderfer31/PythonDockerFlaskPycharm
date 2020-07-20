@@ -9,3 +9,5 @@ This project is a homework assignment to teach how to get Pycharm setup with Doc
 ![postman request output](screenshots/Postman.png)
 # SQL Data Screenshot
 ![pycharm data query](screenshots/Query.png)
+# Bootstrap and Flask
+![bootstrap and flask](screenshots/DisplayWorking.png)
