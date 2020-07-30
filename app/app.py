@@ -124,7 +124,7 @@ def api_edit(Title) -> str:
     return resp
 
 
-@app.route('/api/Title/<string:Title>', methods=['DELETE'])
+@app.route('/api/v1/Title/<string:Title>', methods=['DELETE'])
 def api_delete(Title) -> str:
     cursor = mysql.get_db().cursor()
     sql_delete_query = """DELETE FROM robert_Deniro WHERE Title = %s """
